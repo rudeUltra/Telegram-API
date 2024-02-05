@@ -3,8 +3,8 @@ const axios=require('axios');
 const mongoose=require('mongoose');
 
 
-const token = '6791510546:AAHX4HDMVRztEFECRVYo4c0WEcTk_NpVWZw';
-const weatherToken='0d61eb69395798cb9e35e06bbb8d45e3';
+const token = '';
+const weatherToken='';
 
 async function getWeatherData(city) {
     try {
@@ -109,7 +109,7 @@ bot.on('message', async (msg) => {
 
 
 // Mongoose initiation
-mongoose.connect("mongodb+srv://rudhradeep:KhGlCU7jNUyS3os4@kuebiko.zfkcgjn.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   
